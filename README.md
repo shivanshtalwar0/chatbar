@@ -4,6 +4,7 @@ flutter plugin to add customizable whatsapp,hangout,messenger based or even cust
 
 ## Getting Started
 Samples
+![Gradient support](https://github.com/shivanshtalwar0/chatbar/raw/master/sample/sample1.png)
 
 
 
