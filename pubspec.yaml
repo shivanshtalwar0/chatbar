@@ -1,8 +1,8 @@
 name: chatbar
 description: flutter plugin to add customizable whatsapp based chat appbar
 version: 0.0.1
-author: Shivansh Talwar
-homepage:
+author: Shivansh Talwar <shivanshtalwar0@gmail.com>
+homepage: https://github.com/shivanshtalwar0/chatbar
 
 environment:
   sdk: ">=2.2.2 <3.0.0"

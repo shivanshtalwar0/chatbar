@@ -1,13 +1,11 @@
 # chatbar
 
-flutter plugin to add customizable whatsapp based chat appbar
+flutter plugin to add customizable whatsapp,hangout,messenger based or even custom chat appbar in your flutter application
 
 ## Getting Started
+Samples
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+
 
 For help getting started with Flutter, view our 
 [online documentation](https://flutter.dev/docs), which offers tutorials, 
