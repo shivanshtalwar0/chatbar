@@ -18,12 +18,14 @@ class ChatBar extends StatelessWidget implements PreferredSizeWidget {
   final TextStyle usernamestyle;
   final TextStyle statusstyle;
   final String lastseen;
+  final Function onprofileimagetap;
 
   @override
   Size get preferredSize => Size.fromHeight(height);
 
   ChatBar(
       {Key key,
+        this.onprofileimagetap,
         this.gradient,
         this.lastseen,
         this.backbutton,
@@ -78,14 +80,16 @@ class ChatBar extends StatelessWidget implements PreferredSizeWidget {
           backbutton!=null?backbutton:BackButton(
             color: backbuttoncolor,
           ),
-          ClipRRect(
+
+          GestureDetector(child:ClipRRect(
               borderRadius: new BorderRadius.circular(30.0),
               child: Image.network(
                 profilePic,
                 width: 45,
                 height: 45,
                 fit: BoxFit.cover,
-              )),
+              )),onTap:onprofileimagetap,),
+
           SizedBox(
             width: 7.0,
           ),

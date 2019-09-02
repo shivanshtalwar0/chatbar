@@ -16,6 +16,25 @@ Import in your project:
 `import 'package:chatbar/chatbar.dart';`
 
 
+## API & Parameters
+
+| Property          | Type          | Summary                                                                                               |
+|-------------------|---------------|-------------------------------------------------------------------------------------------------------|
+| profilePic        | String        | url of profile picture for chat user                                                                  |
+| username          | String        | name of chat user                                                                                     |
+| status            | ChatBarState  | used to control current state of chat with the user it can be ChatBarState.ACTIVE etc.                |
+| gradient          | Gradient      | used to apply gradient on the surface of chatbar                                                      |
+| color             | Color         | used to apply solid background color on the Chatbar                                                   |
+| onprofileimagetap | Function      | can be used to listen for events when profile picture is tapped,incase you want to show image preview |
+| actions           | List<Widgets> | similar to actions property of native appbar widget                                                   |
+| usernamestyle     | TextStyle     | used to apply custom styling on the chat username                                                     |
+| statusstyle       | TextStyle     | used to apply custom styling on the chat status                                                       |
+| lastseen          | String        | last seen of a chat user                                                                              |
+| backbuttoncolor   | Color         | custom color of back button                                                                           |
+| backutton         | IconButton    | in case you want custom back button                                                                   |
+| height            | Double        | to increase the height of chatbar widget                                                              |
+| actionspacer      | Int           | to increase the gap between actions and chat user container(not recommended)  
+
 
 ## 👨 Developed By
 `Shivansh Talwar`

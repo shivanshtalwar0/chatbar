@@ -9,20 +9,31 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  String _platformVersion = 'Unknown';
+
+  final navigatorKey = GlobalKey<NavigatorState>();
 
   @override
   void initState() {
     super.initState();
   }
 
+  void show() {
+    final context = navigatorKey.currentState.overlay.context;
+    final dialog = AlertDialog(
+      content: Container(child: Image.network("https://scontent.fdel8-1.fna.fbcdn.net/v/t1.0-9/55786278_1694407227328700_8743813181337501696_n.jpg?_nc_cat=101&_nc_oc=AQnH_MY2ofbfcVeo2-QeS6P10Kg88RnI_zTh78UQGpzY8wVasLyF4hF2_JH0bOB2b8c&_nc_ht=scontent.fdel8-1.fna&oh=ec6eedc22c681f49fa96714991fca364&oe=5D9BC9A5"),),
+    );
+    showDialog(context: context, builder: (x) => dialog);
+  }
   // Platform messages are asynchronous, so we initialize in an async method.
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      navigatorKey: navigatorKey,
+
       home: Scaffold(
         appBar: ChatBar(
+          onprofileimagetap:() => show(),
           profilePic: "https://scontent.fdel8-1.fna.fbcdn.net/v/t1.0-9/55786278_1694407227328700_8743813181337501696_n.jpg?_nc_cat=101&_nc_oc=AQnH_MY2ofbfcVeo2-QeS6P10Kg88RnI_zTh78UQGpzY8wVasLyF4hF2_JH0bOB2b8c&_nc_ht=scontent.fdel8-1.fna&oh=ec6eedc22c681f49fa96714991fca364&oe=5D9BC9A5",
           username: "Shivansh Talwar",
           status: ChatBarState.ACTIVE,
