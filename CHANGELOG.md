@@ -1,4 +1,7 @@
 ## 1.0.0
+readme fix
+
+## 1.0.0
 breaking changes
 * changed profilePic to type Image
 * changed status to Widget
