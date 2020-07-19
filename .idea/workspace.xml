@@ -53,21 +53,25 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1320" height="165" key="GridCell.Tab.0.bottom" timestamp="1595191744453">
+    <state width="1320" height="165" key="GridCell.Tab.0.bottom" timestamp="1595192130050">
       <screen x="0" y="24" width="1366" height="687" />
     </state>
-    <state width="1320" height="165" key="GridCell.Tab.0.bottom/0.24.1366.687@0.24.1366.687" timestamp="1595191744453" />
-    <state width="1320" height="165" key="GridCell.Tab.0.center" timestamp="1595191744452">
+    <state width="1320" height="165" key="GridCell.Tab.0.bottom/0.24.1366.687@0.24.1366.687" timestamp="1595192130050" />
+    <state width="1320" height="165" key="GridCell.Tab.0.center" timestamp="1595192130046">
       <screen x="0" y="24" width="1366" height="687" />
     </state>
-    <state width="1320" height="165" key="GridCell.Tab.0.center/0.24.1366.687@0.24.1366.687" timestamp="1595191744452" />
-    <state width="1320" height="165" key="GridCell.Tab.0.left" timestamp="1595191744452">
+    <state width="1320" height="165" key="GridCell.Tab.0.center/0.24.1366.687@0.24.1366.687" timestamp="1595192130046" />
+    <state width="1320" height="165" key="GridCell.Tab.0.left" timestamp="1595192130044">
       <screen x="0" y="24" width="1366" height="687" />
     </state>
-    <state width="1320" height="165" key="GridCell.Tab.0.left/0.24.1366.687@0.24.1366.687" timestamp="1595191744452" />
-    <state width="1320" height="165" key="GridCell.Tab.0.right" timestamp="1595191744453">
+    <state width="1320" height="165" key="GridCell.Tab.0.left/0.24.1366.687@0.24.1366.687" timestamp="1595192130044" />
+    <state width="1320" height="165" key="GridCell.Tab.0.right" timestamp="1595192130047">
       <screen x="0" y="24" width="1366" height="687" />
     </state>
-    <state width="1320" height="165" key="GridCell.Tab.0.right/0.24.1366.687@0.24.1366.687" timestamp="1595191744453" />
+    <state width="1320" height="165" key="GridCell.Tab.0.right/0.24.1366.687@0.24.1366.687" timestamp="1595192130047" />
+    <state x="346" y="151" key="run.anything.popup" timestamp="1595192097285">
+      <screen x="0" y="24" width="1366" height="687" />
+    </state>
+    <state x="346" y="151" key="run.anything.popup/0.24.1366.687@0.24.1366.687" timestamp="1595192097285" />
   </component>
 </project>
