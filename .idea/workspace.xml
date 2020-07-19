@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e743ac6c-a730-43a0-b040-71a713b4224f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/android/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_for_Android.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/example_lib_main_dart.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/chatbar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/chatbar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/chatbar.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +23,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
@@ -78,21 +53,21 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1320" height="165" key="GridCell.Tab.0.bottom" timestamp="1595191136356">
+    <state width="1320" height="165" key="GridCell.Tab.0.bottom" timestamp="1595191744453">
       <screen x="0" y="24" width="1366" height="687" />
     </state>
-    <state width="1320" height="165" key="GridCell.Tab.0.bottom/0.24.1366.687@0.24.1366.687" timestamp="1595191136356" />
-    <state width="1320" height="165" key="GridCell.Tab.0.center" timestamp="1595191136355">
+    <state width="1320" height="165" key="GridCell.Tab.0.bottom/0.24.1366.687@0.24.1366.687" timestamp="1595191744453" />
+    <state width="1320" height="165" key="GridCell.Tab.0.center" timestamp="1595191744452">
       <screen x="0" y="24" width="1366" height="687" />
     </state>
-    <state width="1320" height="165" key="GridCell.Tab.0.center/0.24.1366.687@0.24.1366.687" timestamp="1595191136355" />
-    <state width="1320" height="165" key="GridCell.Tab.0.left" timestamp="1595191136354">
+    <state width="1320" height="165" key="GridCell.Tab.0.center/0.24.1366.687@0.24.1366.687" timestamp="1595191744452" />
+    <state width="1320" height="165" key="GridCell.Tab.0.left" timestamp="1595191744452">
       <screen x="0" y="24" width="1366" height="687" />
     </state>
-    <state width="1320" height="165" key="GridCell.Tab.0.left/0.24.1366.687@0.24.1366.687" timestamp="1595191136354" />
-    <state width="1320" height="165" key="GridCell.Tab.0.right" timestamp="1595191136355">
+    <state width="1320" height="165" key="GridCell.Tab.0.left/0.24.1366.687@0.24.1366.687" timestamp="1595191744452" />
+    <state width="1320" height="165" key="GridCell.Tab.0.right" timestamp="1595191744453">
       <screen x="0" y="24" width="1366" height="687" />
     </state>
-    <state width="1320" height="165" key="GridCell.Tab.0.right/0.24.1366.687@0.24.1366.687" timestamp="1595191136355" />
+    <state width="1320" height="165" key="GridCell.Tab.0.right/0.24.1366.687@0.24.1366.687" timestamp="1595191744453" />
   </component>
 </project>
