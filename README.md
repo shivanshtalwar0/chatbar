@@ -20,9 +20,9 @@ Import in your project:
 
 | Property          | Type          | Summary                                                                                               |
 |-------------------|---------------|-------------------------------------------------------------------------------------------------------|
-| profilePic        | String        | url of profile picture for chat user                                                                  |
+| profilePic        | Image         | url of profile picture for chat user                                                                  |
 | username          | String        | name of chat user                                                                                     |
-| status            | ChatBarState  | used to control current state of chat with the user it can be ChatBarState.ACTIVE etc.                |
+| status            | Widget        | used to control current state of chat with the user it can be ChatBarState.ACTIVE etc.                |
 | gradient          | Gradient      | used to apply gradient on the surface of chatbar                                                      |
 | color             | Color         | used to apply solid background color on the Chatbar                                                   |
 | onprofileimagetap | Function      | can be used to listen for events when profile picture is tapped,incase you want to show image preview |
